@@ -11,7 +11,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      height: auto;
+      padding: 40px 20px;
       margin: 0;
     }
     .card {
@@ -19,28 +20,30 @@
       border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       padding: 30px;
-      max-width: 500px;
-      text-align: center;
+      max-width: 700px;
+      text-align: left;
     }
     .card img {
       width: 120px;
       height: 120px;
       object-fit: cover;
       border-radius: 50%;
-      margin-bottom: 20px;
+      margin: 0 auto 20px auto;
+      display: block;
       border: 3px solid #007ACC;
     }
     .card h1 {
       color: #007ACC;
       font-size: 24px;
-      margin-bottom: 10px;
+      text-align: center;
     }
     .card p {
       font-size: 16px;
       line-height: 1.6;
       margin: 10px 0;
     }
-    .highlight {
+    .question {
+      margin-top: 20px;
       font-weight: bold;
       color: #005a9e;
     }
@@ -51,9 +54,16 @@
     <img src="jenniferysamuel.png" alt="Jennifer Gonzalez">
     <h1>Hello! I'm Jennifer Gonzalez</h1>
     <p>I am a final-semester student in <span class="highlight">Software Development</span>.</p>
-    <p>I am very interested in deepening my knowledge of <span class="highlight">Microsoft Excel</span>, as I believe it is an essential tool for data management and analysis.</p>
-    <p>I currently live in <span class="highlight">São Paulo, Brazil</span>, but I am originally from <span class="highlight">Venezuela</span>.</p>
-    <p>I’m excited to keep learning and growing professionally.</p>
+    <p>I currently live in <span class="highlight">São Paulo, Brazil</span>, but I’m originally from <span class="highlight">Venezuela</span>. I work part-time and spend much of my free time studying and exploring new technologies. I enjoy coding, solving real-world problems, and spending time with my family. Something interesting about me is that I’m multilingual and love learning about different cultures.</p>
+    
+    <p class="question">What is your experience with Microsoft Excel?</p>
+    <p>I have used Microsoft Excel mainly for academic and organizational tasks, such as creating schedules, tracking assignments, and performing basic data analysis. I’m familiar with formulas, tables, and simple charts, but I am eager to improve and learn more advanced features like pivot tables, macros, and data visualization.</p>
+    
+    <p class="question">What is the connection between Microsoft Excel and your professional goals?</p>
+    <p>As a future software developer, understanding data is crucial. Excel is a powerful tool that helps in organizing and analyzing data efficiently. I believe that mastering Excel will strengthen my ability to work with data, which is essential for both development and decision-making in tech-related roles.</p>
+    
+    <p class="question">What was the last new app, program, or technology you learned and what did this experience teach you about learning technology?</p>
+    <p>The last tool I learned was GitHub Pages, which I used to publish my own website. It taught me how valuable hands-on practice is when learning technology. It also reminded me that with consistency and curiosity, I can quickly adapt to and adopt new digital tools that support my personal and professional growth.</p>
   </div>
 </body>
 </html>
